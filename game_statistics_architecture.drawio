@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-22T08:07:32.995Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="HefwaX2ndhlqD9BurtNV" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-22T08:08:32.476Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="S5y5Q-ljN5D_H7ZUH7tS" version="21.5.0" type="github">
   <diagram name="Page-1" id="hJo40T_83tcf31W40L3I">
     <mxGraphModel dx="1358" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -323,10 +323,15 @@
           <mxGeometry y="60" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TSxKwpt8gHwwZr0MDBwS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamond;endFill=0;startSize=10;endSize=15;" edge="1" parent="1" source="TSxKwpt8gHwwZr0MDBwS-10" target="TSxKwpt8gHwwZr0MDBwS-1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="405" y="780" />
+              <mxPoint x="680" y="780" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="TSxKwpt8gHwwZr0MDBwS-10" value="EnemyUtilityImpact" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="840" width="170" height="170" as="geometry" />
+          <mxGeometry x="320" y="830" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="TSxKwpt8gHwwZr0MDBwS-11" value="- he_dmg : float&lt;br&gt;- he_hits : int&lt;br&gt;- flash_duration : float&lt;br&gt;- flash_hits : int&lt;br&gt;- mol_incen_dmg : float&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TSxKwpt8gHwwZr0MDBwS-10">
           <mxGeometry y="26" width="170" height="84" as="geometry" />
