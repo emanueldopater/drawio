@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T12:14:52.661Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5tehkML_SQDzuSwhOM9s" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T13:45:18.321Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="pnUe30FATf8rupIwVvTJ" version="21.6.1" type="github">
   <diagram name="Page-1" id="hJo40T_83tcf31W40L3I">
     <mxGraphModel dx="1195" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -389,11 +389,16 @@
         <mxCell id="7Z3H9KnAuMo4H-JlatRD-8" value="+ add_fire(was_straf, enemy_info)&lt;br&gt;+ add_moving_time ( one_key :bool)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7Z3H9KnAuMo4H-JlatRD-5" vertex="1">
           <mxGeometry y="108" width="210" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="RYAio4y506vlifFFTMLM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYAio4y506vlifFFTMLM-2" target="7Z3H9KnAuMo4H-JlatRD-5">
+        <mxCell id="RYAio4y506vlifFFTMLM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="RYAio4y506vlifFFTMLM-2" target="7Z3H9KnAuMo4H-JlatRD-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RYAio4y506vlifFFTMLM-7" value="0.. N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RYAio4y506vlifFFTMLM-6">
           <mxGeometry x="-0.6639" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RYAio4y506vlifFFTMLM-8" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RYAio4y506vlifFFTMLM-6">
+          <mxGeometry x="0.5375" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
