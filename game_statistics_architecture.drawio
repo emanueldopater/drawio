@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T12:04:55.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vZq4X62faQNIQdTB7M_P" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T12:14:52.661Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5tehkML_SQDzuSwhOM9s" version="21.6.1" type="github">
   <diagram name="Page-1" id="hJo40T_83tcf31W40L3I">
-    <mxGraphModel dx="1434" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -378,16 +378,36 @@
           <mxGeometry y="108" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="7Z3H9KnAuMo4H-JlatRD-5" value="StraffMovement&lt;br&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="840" width="210" height="188" as="geometry" />
+          <mxGeometry x="370" y="840" width="210" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="7Z3H9KnAuMo4H-JlatRD-6" value="- fire_with_straff_count : int&lt;br&gt;- total_fire_count : int&lt;br&gt;- straf_moving_time ; int&lt;br&gt;- total_moving_time : int&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7Z3H9KnAuMo4H-JlatRD-5" vertex="1">
+        <mxCell id="7Z3H9KnAuMo4H-JlatRD-6" value="- weapon_fires : [] WeaponFire&lt;br&gt;- one_key_moving_time; int&lt;br&gt;- all_moving_times: int&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7Z3H9KnAuMo4H-JlatRD-5" vertex="1">
           <mxGeometry y="26" width="210" height="74" as="geometry" />
         </mxCell>
         <mxCell id="7Z3H9KnAuMo4H-JlatRD-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="7Z3H9KnAuMo4H-JlatRD-5" vertex="1">
           <mxGeometry y="100" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="7Z3H9KnAuMo4H-JlatRD-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7Z3H9KnAuMo4H-JlatRD-5" vertex="1">
-          <mxGeometry y="108" width="210" height="80" as="geometry" />
+        <mxCell id="7Z3H9KnAuMo4H-JlatRD-8" value="+ add_fire(was_straf, enemy_info)&lt;br&gt;+ add_moving_time ( one_key :bool)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7Z3H9KnAuMo4H-JlatRD-5" vertex="1">
+          <mxGeometry y="108" width="210" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="RYAio4y506vlifFFTMLM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYAio4y506vlifFFTMLM-2" target="7Z3H9KnAuMo4H-JlatRD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYAio4y506vlifFFTMLM-7" value="0.. N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RYAio4y506vlifFFTMLM-6">
+          <mxGeometry x="-0.6639" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RYAio4y506vlifFFTMLM-2" value="WeaponFire" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1150" width="250" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="RYAio4y506vlifFFTMLM-3" value="- was_straf : bool&lt;br&gt;- enemy_info : dict" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RYAio4y506vlifFFTMLM-2">
+          <mxGeometry y="26" width="250" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="RYAio4y506vlifFFTMLM-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RYAio4y506vlifFFTMLM-2">
+          <mxGeometry y="70" width="250" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="RYAio4y506vlifFFTMLM-5" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RYAio4y506vlifFFTMLM-2">
+          <mxGeometry y="88" width="250" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
