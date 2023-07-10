@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-10T14:32:52.280Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="rKHDEH6TYbTQBmfLkqxB" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-10T14:44:37.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xid2WuPDsbhlFTrPfxYG" version="21.6.1" type="github">
   <diagram name="Page-1" id="hJo40T_83tcf31W40L3I">
     <mxGraphModel dx="1562" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -377,17 +377,17 @@
         <mxCell id="ndhO5RP11n0E17Osrh5t-4" value="+ add_ocurrence(int, bool)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ndhO5RP11n0E17Osrh5t-1" vertex="1">
           <mxGeometry y="108" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7Z3H9KnAuMo4H-JlatRD-5" value="StraffMovement&lt;br&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="840" width="210" height="290" as="geometry" />
+        <mxCell id="7Z3H9KnAuMo4H-JlatRD-5" value="CounterStraffing&lt;br&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="840" width="210" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="7Z3H9KnAuMo4H-JlatRD-6" value="- weapon_fires : [] WeaponFire&lt;br&gt;- one_key_moving_time; int&lt;br&gt;- all_moving_times: int&amp;nbsp;&lt;br&gt;- counter_straf_stop : int&lt;br&gt;- moving_one_key : int&lt;br&gt;- moving_two_keys : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7Z3H9KnAuMo4H-JlatRD-5" vertex="1">
-          <mxGeometry y="26" width="210" height="134" as="geometry" />
+        <mxCell id="7Z3H9KnAuMo4H-JlatRD-6" value="- weapon_fires : [] WeaponFire&lt;br&gt;- counter_straf_stop : int&lt;br&gt;- moving_one_key : int&lt;br&gt;- moving_two_keys : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7Z3H9KnAuMo4H-JlatRD-5" vertex="1">
+          <mxGeometry y="26" width="210" height="84" as="geometry" />
         </mxCell>
         <mxCell id="7Z3H9KnAuMo4H-JlatRD-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="7Z3H9KnAuMo4H-JlatRD-5" vertex="1">
-          <mxGeometry y="160" width="210" height="8" as="geometry" />
+          <mxGeometry y="110" width="210" height="8" as="geometry" />
         </mxCell>
         <mxCell id="7Z3H9KnAuMo4H-JlatRD-8" value="+ add_fire(was_straf, enemy_info)&lt;br&gt;+ add_moving_time ( one_key :bool)&lt;br&gt;+ add_straf_stop()&lt;br&gt;+ add_move_one_key()&lt;br&gt;+ add_move_two_keys()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7Z3H9KnAuMo4H-JlatRD-5" vertex="1">
-          <mxGeometry y="168" width="210" height="122" as="geometry" />
+          <mxGeometry y="118" width="210" height="122" as="geometry" />
         </mxCell>
         <mxCell id="RYAio4y506vlifFFTMLM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="RYAio4y506vlifFFTMLM-2" target="7Z3H9KnAuMo4H-JlatRD-5" edge="1">
           <mxGeometry relative="1" as="geometry">
